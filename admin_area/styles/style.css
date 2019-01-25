@@ -1,0 +1,82 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body
+{
+background-color: #D98880; /* maroon type color */
+}
+
+.main_wrapper
+{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background-color: black;
+}
+.header_wrapper
+{
+	width: 1000px;
+	height: 100px;
+	background-color: #F4F6F7; /* white type color */
+	
+border-bottom: 	6px groove #641E16;
+}
+.left
+{
+	width: 794px;
+	height: 800px;
+	float: left;
+	/*background: url(1.jpg);
+	background-repeat: no-repeat;*/
+	background-color: #B03A2E;
+
+}
+.right
+{
+	width: 200px;
+	height: 800px;
+	float: right;
+	background-color: white;
+	border-left: 6px groove #641E16;
+}
+.right a
+{
+	text-decoration: none;
+	font-size: 18px;
+	color: #DC7633;
+	display: block;
+	margin-bottom: 8px;
+	padding: 8px;
+	padding-top: 10px;
+	margin-top: 8px;
+}
+.right a:hover
+{
+	text-decoration: underline;
+	font-weight: bolder;
+}
